@@ -1,0 +1,130 @@
+html{
+	background-color: black;
+	font-family: 'Sansita Swashed', cursive;
+}
+p{
+	font-size: 4.5rem; 
+	color: white;
+	font-family: 'Sansita Swashed';
+	letter-spacing:-2px;
+	word-spacing:15px;
+	text-align: center;
+	text-shadow: 1px 1px 10 yellow;
+}
+p:hover{
+	color: yellow;
+	animation-delay: 0.5s;
+}
+@-webkit-keyframes black {
+	0% {
+		transform: scale(1,1);
+	}
+	100% {
+		transform: scale(0.95,0.95);
+	}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
+@-webkit-keyframes white {
+	0% {
+		transform: scale(1,1);
+	}
+	100% {
+		transform: scale(0.95,0.95);
+	}
+}
+
+@-webkit-keyframes four {
+	0% {
+		transform: scale(3,3);
+		transform:rotate(0deg);
+		transform:translate(0px, 0px);
+	}
+	50%{
+		transform: scale(4,4);
+		transform:rotate(30deg);
+		transform:translate(100px, 700px);
+	}
+	100% {
+		transform: scale(3,3);
+		transform:rotate(50deg);
+		transform:translate(200px, 1200px);
+	}
+}
+
+
+.white{
+	width: 60px;
+	height: 300px;
+	display: inline;
+	background-color: white;
+	border : 1px solid lightgray;
+	border-radius: 3px;
+}
+.white:hover{
+	background-color: #efefef;
+	border: 1px solid gray; 
+
+	animation-name: white;
+	animation-duration: 1s;
+}
+.black{
+	width: 40px;
+	height: 200px;
+	display: inline;
+	background-color: black;
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.black:hover{
+	background-color: #262626;
+
+	animation-name: black;
+	animation-duration: 1s;
+
+}
+.white-box{
+	display: flex; 
+	justify-content: center;
+}
+.black-box{
+	display: flex; 
+	align-items: flex-start;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+.c:hover{
+	background-color: #ed0f0f;
+}
+.d:hover{
+	background-color: #ed530f;
+}
+.e:hover{
+	background-color: #edb60f;
+}
+.f:hover{
+	background-color: #2cb51a;
+}
+.g:hover{
+	background-color: #0948bc;
+}
+.a:hover{
+	background-color: #080d73;
+}
+.b:hover{
+	background-color: #7012c0;
+}
+.text{
+	width: 800px;
+	height: 200px;
+	position: absolute; 
+	display: inline; 
+	left: calc(50% - 400px);
+	top: 500px; 
+	}
